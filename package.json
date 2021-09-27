@@ -1,0 +1,55 @@
+{
+  "name": "project-starter-react-gulp",
+  "version": "1.0.0",
+  "description": "Project starter for react projects using gulp",
+  "main": "gulpfile.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "linter": "gulp linter",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaLiHub/Empty-project-react-gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "react"
+  ],
+  "author": "Oleksandr Lishchynskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaLiHub/Empty-project-react-gulp/issues"
+  },
+  "homepage": "https://github.com/SaLiHub/Empty-project-react-gulp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.26.14",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.26.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-prettier": "^3.0.0",
+    "gulp-terser": "^2.0.1",
+    "postcss-csso": "^5.0.1",
+    "postcss-import": "^14.0.1",
+    "postcss-uncss": "^0.17.0"
+  },
+  "dependencies": {
+    "common-js": "^0.3.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "requirejs": "^2.3.6",
+    "webpack-stream": "^7.0.0"
+  }
+}
