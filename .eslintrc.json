@@ -7,10 +7,6 @@
     "react"
   ],
   "extends": ["airbnb","eslint:all", "plugin:react/all"],
-//  "extends": [
-//    "eslint:recommended",
-//    "plugin:react/recommended"
-//  ],
   "env": {
     "browser": true,
     "node": true
@@ -18,6 +14,7 @@
   "rules": {
     "no-undef": 0,
     "no-var": 0,
+    "no-loop-func": "error",
     "wrap-iife": [
       "error",
       "any"
