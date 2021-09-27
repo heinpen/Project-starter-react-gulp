@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp",
-    "linter": "gulp linter",
     "build": "gulp build"
   },
   "repository": {
@@ -39,14 +38,11 @@
     "gulp-eslint": "^6.0.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-postcss": "^9.0.0",
-    "gulp-prettier": "^3.0.0",
-    "gulp-terser": "^2.0.1",
     "postcss-csso": "^5.0.1",
     "postcss-import": "^14.0.1",
     "postcss-uncss": "^0.17.0"
   },
   "dependencies": {
-    "common-js": "^0.3.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "requirejs": "^2.3.6",
