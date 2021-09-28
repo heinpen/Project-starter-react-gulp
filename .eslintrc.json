@@ -6,12 +6,17 @@
   "plugins": [
     "react"
   ],
-  "extends": ["airbnb","eslint:all", "plugin:react/all"],
+  "extends": [
+    "airbnb",
+    "eslint:all",
+    "plugin:react/all"
+  ],
   "env": {
     "browser": true,
     "node": true
   },
   "rules": {
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "no-undef": 0,
     "no-var": 0,
     "no-loop-func": "error",
